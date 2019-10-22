@@ -1,0 +1,66 @@
+{
+    "products" : [ {
+        "id": 1,
+        "actualPrice" : 10000,
+        "offerPrice" : 8999,
+        "name" : "Moto G6 Plus",
+        "description" : "Moto g6 Plus (Sapphire Blue, 4+64GB )",
+        "image" : "/assets/images/moto-g6-plus-mobile-phone-large.jpg",
+        "producttype" : "Smart Phone"
+      },
+      {
+        "id": 2,
+        "actualPrice" : 10000,
+        "offerPrice" : 8999,
+        "name" : "Samsung Galaxy M30s",
+        "description" : "Samsung Galaxy M30s (Sapphire Blue, 4+64GB )",
+        "image" : "/assets/images/moto-g6-plus-mobile-phone-large.jpg",
+        "producttype" : "Smart Phone"
+      },
+      {
+        "id": 3,
+        "actualPrice" : 11999,
+        "offerPrice" : 8990,
+        "name" : "Vivo U10",
+        "description" : "Vivo U10 (Electric Blue, 3GB RAM, 32GB Storage)",
+        "image" : "/assets/images/moto-g6-plus-mobile-phone-large.jpg",
+        "producttype" : "Smart Phone"
+      },
+      {
+        "id": 1,
+        "actualPrice" : 10000,
+        "offerPrice" : 8999,
+        "name" : "Moto G6+",
+        "description" : "This is moto G6+",
+        "image" : "/assets/images/moto-g6-plus-mobile-phone-large.jpg",
+        "producttype" : "Smart Phone"
+      },
+      {
+        "id": 1,
+        "actualPrice" : 10000,
+        "offerPrice" : 8999,
+        "name" : "Moto G6+",
+        "description" : "This is moto G6+",
+        "image" : "/assets/images/moto-g6-plus-mobile-phone-large.jpg",
+        "producttype" : "Smart Phone"
+      },
+      {
+        "id": 1,
+        "actualPrice" : 10000,
+        "offerPrice" : 8999,
+        "name" : "Moto G6+",
+        "description" : "This is moto G6+",
+        "image" : "/assets/images/moto-g6-plus-mobile-phone-large.jpg",
+        "producttype" : "Smart Phone"
+      },
+      {
+        "id": 1,
+        "actualPrice" : 10000,
+        "offerPrice" : 8999,
+        "name" : "Moto G6+",
+        "description" : "This is moto G6+",
+        "image" : "/assets/images/moto-g6-plus-mobile-phone-large.jpg",
+        "producttype" : "Smart Phone"
+      }
+    ]
+  }

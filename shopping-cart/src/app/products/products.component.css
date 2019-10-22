@@ -1,0 +1,38 @@
+.grid-container {
+  margin: 20px;
+}
+
+.dashboard-card {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+}
+
+.more-button {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+
+.dashboard-card-content {
+  text-align: center;
+}
+
+.example-card {
+  max-width: 400px;
+  max-height: 700px;
+}
+
+.example-header-image {
+  background-image: url('/assets/images/mobile_small.jpg');
+  background-size: cover;
+}
+
+img {
+  height: fit-content;
+  max-height: 400px !important;
+  object-fit: cover;
+  object-position: center; /* this centers and crops the image so that it doesn't break the aspect ratio */
+}
