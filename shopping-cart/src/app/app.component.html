@@ -1,9 +1,11 @@
+<div class="container">
 
+  <nav>
+    <a routerLink="/products" routerLinkActive="active">Products</a>
+    <a routerLink="/productCart" routerLinkActive="active">Product Cart</a>
+    <a routerLink="/orderHistory" routerLinkActive="active">Order History</a>
+  </nav>
+  <router-outlet></router-outlet>
 
-<nav>
-  <a routerLink = "/products"  routerLinkActive="active">Products</a>
- <a routerLink = "/order"  routerLinkActive="active">Order</a>
- <a routerLink = "/orderHistory"  routerLinkActive="active">Order History</a>
-</nav>
-<router-outlet></router-outlet>
-
+  <!-- Content here -->
+</div>

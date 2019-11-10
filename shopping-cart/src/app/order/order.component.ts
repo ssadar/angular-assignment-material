@@ -1,6 +1,5 @@
-import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { OrderHistoryService, Order } from '../order-history.service';
-import { Observable } from 'rxjs';
 
 
 @Component({
@@ -10,9 +9,9 @@ import { Observable } from 'rxjs';
 })
 export class OrderComponent implements OnInit {
 
-
+  displayedColumns: string[] = ['OrderId', 'ProductName', 'Price', 'ProductType'];
   orders: Order[];
-  constructor(private service: OrderHistoryService, private cd: ChangeDetectorRef) { }
+  constructor(private service: OrderHistoryService) { }
 
   ngOnInit() {
     this.service.getOrdersHistory().subscribe(products => this.orders = products);

@@ -6,5 +6,7 @@ export class Product {
   offerPrice: number;
   description: string;
   producttype: string;
+  count =0;
+  position: number;
 
 }
