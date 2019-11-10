@@ -37,7 +37,7 @@ export class ProductCartComponent implements OnInit {
   }
 
   buyProducts(): void {
-    this.orderId += 1;
+    this.orderId = this.orderId  + 1;
     this.order.id = this.orderId;
     this.order.products = this.selection.selected;
     this.productsService.buyProducts(this.order);

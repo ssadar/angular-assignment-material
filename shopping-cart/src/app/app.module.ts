@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppRoutingModule,RoutingComponent  } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -11,13 +10,9 @@ import {MatListModule} from '@angular/material/list';
 import { MatCardModule } from '@angular/material/card';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatButtonModule } from '@angular/material/button';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { OrderComponent } from './order/order.component';
-
-import { Routes, RouterModule } from '@angular/router';
 import { ProductCartComponent } from './product-cart/product-cart.component';
-
-
 
 @NgModule({
   declarations: [
@@ -39,7 +34,7 @@ import { ProductCartComponent } from './product-cart/product-cart.component';
     MatTableModule,
     HttpClientModule
   ],
-  providers: [],
+  providers: [HttpClient, HttpClientModule],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

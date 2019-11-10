@@ -6,8 +6,10 @@ import { MatCardModule } from '@angular/material/card';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatIconModule } from '@angular/material/icon';
 import { MatMenuModule } from '@angular/material/menu';
-
+import { HttpClientTestingModule } from '@angular/common/http/testing';
 import { ProductsComponent } from './products.component';
+
+
 
 describe('ProductsComponent', () => {
   let component: ProductsComponent;
@@ -24,6 +26,7 @@ describe('ProductsComponent', () => {
         MatGridListModule,
         MatIconModule,
         MatMenuModule,
+        HttpClientTestingModule
       ]
     }).compileComponents();
   }));

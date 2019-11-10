@@ -15,4 +15,4 @@ const appRoutes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
-export const RoutingComponent = [OrderComponent];
+export const RoutingComponent = [ProductsComponent, OrderComponent];
